@@ -6,3 +6,5 @@ mod clamp_int;
 pub use clamp_int::clamp_int;
 mod common_prefix;
 pub use common_prefix::common_prefix;
+mod normalize_whitespace;
+pub use normalize_whitespace::normalize_whitespace;
