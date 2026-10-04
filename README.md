@@ -9,9 +9,13 @@ Rust 1.85 or newer and Cargo. No external dependencies are needed.
 ## Build and test
 
 ```sh
+cargo fmt --all
+cargo clippy --all-targets --locked --offline -- -D warnings
 cargo build --locked --offline
 cargo test --locked --offline
 ```
+
+Install formatter and lint components with `rustup component add rustfmt clippy`. CI requires clean formatting and rejects Clippy warnings.
 
 ## Usage
 
@@ -23,11 +27,13 @@ assert_eq!(word_count("hello world"), 2);
 assert_eq!(clamp_int(12, 0, 10), Ok(10));
 ```
 
-## Initial utilities
+## Utilities
 
 - `reverse_string` reverses Unicode code points.
 - `word_count` counts whitespace-separated words.
 - `clamp_int` clamps an integer to inclusive bounds and rejects reversed bounds.
+
+- `common_prefix` returns the longest shared prefix by Unicode code points.
 
 ## Adding utilities
 
