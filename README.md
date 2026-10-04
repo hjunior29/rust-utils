@@ -35,6 +35,8 @@ assert_eq!(clamp_int(12, 0, 10), Ok(10));
 
 - `common_prefix` returns the longest shared prefix by Unicode code points.
 
+- `normalize_whitespace` trims Unicode whitespace and collapses runs to one ASCII space.
+
 ## Adding utilities
 
 Use English for code, comments, documentation, and tests. Add one utility per file with meaningful tests covering normal, empty, boundary, and invalid input where applicable. Do not add dependencies without review.

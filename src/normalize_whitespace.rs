@@ -1,3 +1,4 @@
+/// Trim Unicode whitespace and collapse consecutive whitespace to one ASCII space.
 pub fn normalize_whitespace(input: &str) -> String {
     let mut result = String::with_capacity(input.len());
     let mut in_whitespace = true;
