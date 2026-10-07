@@ -10,3 +10,5 @@ mod common_prefix;
 pub use common_prefix::common_prefix;
 mod remove_suffix;
 pub use remove_suffix::remove_suffix;
+mod frequencies_ints;
+pub use frequencies_ints::frequencies_ints;
