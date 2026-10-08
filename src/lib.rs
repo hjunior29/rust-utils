@@ -12,3 +12,5 @@ mod remove_suffix;
 pub use remove_suffix::remove_suffix;
 mod frequencies_ints;
 pub use frequencies_ints::frequencies_ints;
+mod range_ints;
+pub use range_ints::range_ints;
