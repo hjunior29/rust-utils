@@ -14,3 +14,5 @@ mod frequencies_ints;
 pub use frequencies_ints::frequencies_ints;
 mod range_ints;
 pub use range_ints::range_ints;
+mod flatten_ints;
+pub use flatten_ints::flatten_ints;
