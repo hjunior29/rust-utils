@@ -22,3 +22,5 @@ mod range_ints;
 pub use range_ints::range_ints;
 mod escape_html;
 pub use escape_html::escape_html;
+mod fibonacci;
+pub use fibonacci::fibonacci;
