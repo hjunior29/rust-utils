@@ -28,3 +28,5 @@ mod escape_html;
 pub use escape_html::escape_html;
 mod hamming_distance;
 pub use hamming_distance::hamming_distance;
+mod to_snake_case;
+pub use to_snake_case::to_snake_case;
