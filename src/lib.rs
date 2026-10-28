@@ -30,3 +30,5 @@ mod hamming_distance;
 pub use hamming_distance::hamming_distance;
 mod to_snake_case;
 pub use to_snake_case::to_snake_case;
+mod to_camel_case;
+pub use to_camel_case::to_camel_case;
