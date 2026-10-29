@@ -32,3 +32,5 @@ mod to_snake_case;
 pub use to_snake_case::to_snake_case;
 mod to_camel_case;
 pub use to_camel_case::to_camel_case;
+mod mean_ints;
+pub use mean_ints::mean_ints;
